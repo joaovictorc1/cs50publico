@@ -1,0 +1,36 @@
+sort1 uses: Bubble sort
+How do you know?: It was slow at large random texts but when it is already sorted is was the fastest one
+       random5000: 0m0,118s
+      random10000: 0m0,308s
+      random50000: 0m8,836s
+     reversed5000: 0m0,096s
+    reversed10000: 0m0,283s
+    reversed50000: 0m6,609s
+       sorted5000: 0m0,046s
+      sorted10000: 0m0,058s
+      sorted50000: 0m1,196s
+
+sort2 uses: Merge Sort
+How do you know?: It was by far the fastest one in almost every text, especially with the larger ones, except the sorted ones
+       random5000: 0m0,033s
+      random10000: 0m0,127s
+      random50000: 0m1,125s
+     reversed5000: 0m0,022s
+    reversed10000: 0m0,057s
+    reversed50000: 0m0,893s
+       sorted5000: 0m0,046s
+      sorted10000: 0m0,073s
+      sorted50000: 0m1,294s
+
+sort3 uses: Selection sort
+How do you know?: Although it was fast on the beggining, when you increase the size it took many time comparable with the Bubble Sort
+and when it is sorted is the slowest one
+       random5000: 0m0,044s
+      random10000: 0m0,150s
+      random50000: 0m4,663s
+     reversed5000: 0m0,048s
+    reversed10000: 0m0,184s
+    reversed50000: 0m4,772s
+       sorted5000: 0m0,044s
+      sorted10000: 0m0,149s
+      sorted50000: 0m4,185s
